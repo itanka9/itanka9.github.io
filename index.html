@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h3>Hi there 👋</h3>
+
+I'm Michel Beloshitsky, Web developer from Russia.
+
+{% for post in site.posts %}
+  {% unless post.draft %}
+    <p>{{ post.date | date: "%B %e, %Y" }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+  {% endunless %}
+{% endfor %}

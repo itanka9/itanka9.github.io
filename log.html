@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<h3>Журнал</h3>
+
+{% for post in site.log %}
+  <p>{{ post.date | date: "%e/%m/%Y" }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+{% endfor %}

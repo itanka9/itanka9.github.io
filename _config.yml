@@ -1,0 +1,33 @@
+name: Michel Beloshitsky
+description: Web Developer from Russia
+
+url:
+baseurl: ""
+
+permalink: /:title/
+
+version: v1.2.0
+
+collections:
+  log:
+    output: true
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+
+sass:
+  style: :expanded
+
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
