@@ -8,6 +8,6 @@ I'm Michel Beloshitsky, Web developer from Russia.
 
 {% for post in site.posts %}
   {% unless post.draft %}
-    <p>{{ post.date | date: "%B %e, %Y" }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+    <p>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
   {% endunless %}
 {% endfor %}
