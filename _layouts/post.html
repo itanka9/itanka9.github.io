@@ -5,9 +5,15 @@ layout: default
 <article>
   <h3>{{ page.title }}</h3>
 
+  <p>
+    <small>
+      <em>
+        {{ page.date | date_to_long_string }}
+      </em>
+    </small>
+  </p>
+
   {{ content }}
 
-  <div class="date">
-    Written on {{ page.date | date_to_string }}
-  </div>
+  <p><a href="/log/">К оглавлению</a></p>
 </article>
