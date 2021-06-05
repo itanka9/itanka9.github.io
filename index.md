@@ -2,13 +2,21 @@
 layout: default
 ---
 
-<h3>Hi there 👋</h3>
+<h1>Michel Beloshitsky</h1>
 
-I'm Michel Beloshitsky, Web developer from Russia.
+<p><em>Web developer from Russia. Railway interlocking engeneer in past.</em></p>
 
-<h4>Contacts</h4>
+<a href="mailto:mbeloshitsky@gmail.com">mail</a> / <a href="https://t.me/mbeloshitsky">tlg</a> / <a href="https://github.com/itanka9">github</a>
 
-<a href="mailto:mbeloshitsky@gmail.com">mbeloshitsky@gmail.com</a>
+<hr />
+
+<p>I'm working in <a href="https://info.2gis.ru/">2gis</a> on one of the <a href="https://docs.2gis.com/ru/mapgl/overview">best web-cartography engines</a> in the world.
+<p>I write on Javascript language and love it, despite of all.
+<p>When i have time, I passionate about opensource and sometimes <a href="https://github.com/itanka9">contribute</a> on github.
+<p>I live in Sochi and building home.
+<p>I love windsurfing and do lightwind things every free moment of time.
+
+
 
 
 {% for post in site.posts %}
