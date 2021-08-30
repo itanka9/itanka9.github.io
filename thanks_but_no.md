@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Спасибо, но пока нет ;)
-permalink: /thanks_but_no/
+permalink: /thanks-but-no/
 ---
 
 # Спасибо, но пока нет ;)
