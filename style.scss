@@ -1,6 +1,28 @@
 ---
 ---
 
-p {
-  max-width: 64em;
+@font-face {
+  font-family : 'Ubuntu';
+  src: url('fonts/Ubuntu-Regular.ttf');
+  font-weight: regular;
+}
+
+@font-face {
+  font-family : 'Ubuntu Mono';
+  src: url('fonts/UbuntuMono-Regular.ttf');
+  font-weight: regular;
+}
+
+html {
+  font-family: Ubuntu, sans-serif;
+}
+
+.highlight {
+  font-family: Ubuntu Mono, monospace;
+  font-size: 13pt;
+}
+
+p, li {
+  max-width: 72em;
+  line-height: 1.5em;
 }

@@ -4,9 +4,12 @@ layout: default
 
 <h1>Michel Beloshitsky</h1>
 
-<p><em>Web developer from Russia. Railway interlocking engeneer in past.</em></p>
+<!-- p>
+    <a href="/statement/">statement</a>
+    / <a href="/bio/">bio</a>
+    / <a href="/projects/">projects</a>
+</p -->
 
-<a href="mailto:mbeloshitsky@gmail.com">mail</a> / <a href="https://t.me/mbeloshitsky">tlg</a> / <a href="https://github.com/itanka9">github</a>
 
 <hr />
 
@@ -16,11 +19,16 @@ layout: default
 <p>I live in Sochi and building home.
 <p>I love windsurfing and do lightwind things every free moment of time.
 
-
-
-
 {% for post in site.posts %}
 {% unless post.draft %}
-<p>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+<!-- p>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p -->
 {% endunless %}
 {% endfor %}
+
+<p>
+    <small>
+        <a href="mailto:mbeloshitsky@gmail.com">mail</a>
+        / <a href="https://t.me/mbeloshitsky">tlg</a>
+        / <a href="https://github.com/itanka9">github</a>
+    </small>
+</p>
